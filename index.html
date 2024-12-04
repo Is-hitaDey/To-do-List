@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Rye&family=Satisfy&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">Welcome to TODO App</div>
+        <div class="title">TASKS</div>
+        <!-- input form -->
+        
+        <div class="form">
+            <form action="">
+                
+                <label id="ltitle" for="title">Title:</label><br>
+                <input type="text" id="title" name="Title" ><br>
+                <label id="ldesc" for="desc">Description :</label><br>
+                <input type="text" id="desc" name="Desc"><br>
+            </form>
+        </div>
+
+        <div class="add">
+            <div class="button">
+                <button onclick="addtask()" id="add">ADD</button>
+            </div>
+        </div>
+    
+        <div class="display " id="display">
+            <ul id="tasks">
+                
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,154 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    background-color: cornflowerblue;
+    height: 2.3rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 800;
+    padding-left: 1.8rem;
+    text-shadow: rgba(0, 0, 0, 0.71) 3px 2px 3px;
+    border-bottom: rgb(37, 130, 245) solid;
+}
+
+.title {
+    font-size: 2rem;
+    padding: 1.2rem;
+    font-family: "Rubik", serif;
+    font-weight: 700;
+    font-style: normal;
+    color:blue;
+    text-shadow:rgb(27, 140, 253) 2px 2px 2px;
+
+}
+
+.display {
+    padding:1rem;
+    margin:2rem;
+    border-radius: 15px;
+}
+
+
+#ltitle{
+    color:Blue;
+    font-size: 1.5rem;
+    font-weight:550;
+    font-family: "Playfair Display";
+    
+}
+
+#title{
+    padding: 0.5rem;
+    margin:1rem;
+    font-family: "Dancing script";
+    font-size: 1.3rem;
+    border-radius: 13px;
+    border:none;
+    
+}
+
+#ldesc{
+    color:blue;
+    font-size:1.5rem;
+    font-weight:550;
+    font-family: "Playfair Display";
+}
+
+#desc{
+    margin:1rem;
+    padding:1rem;
+    font-family: "Dancing script";
+    font-size: 1.3rem;
+    border-radius: 14px;
+    border:none;
+
+}
+
+.form{
+    /* background-color: aqua; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+form{
+    background-color: pink;
+    padding:1.5rem;
+    border-radius: 15px;
+    box-shadow: rgb(218, 89, 111) 8px 6px 9px;
+}
+
+.add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:1.5rem;
+}
+
+#add{
+    padding:0.5rem 1.4rem;
+    border:none;
+    background-color:rgb(7, 221, 7);
+    color:white;
+    border-radius: 15px;
+    font-size:1rem;
+    font-weight:600;
+    text-shadow: black 2px 2px 4px;
+    box-shadow: rgb(31, 31, 31) 4px 4px 6px;
+}
+
+#add:hover{
+    background-color:rgb(7, 173, 7);  
+    border:1px black solid;
+    box-shadow:rgba(0, 0, 0, 0.76) 8px 8px 13px;
+}
+
+#add:active{
+    background-color: rgb(115, 255, 115);
+    color:rgb(3, 110, 12);
+}
+
+ul li{
+    padding:1rem;
+    list-style: none;
+    position: relative;
+    background-color:rgb(168, 210, 246);
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin:1rem;
+}
+
+ul li span{
+    position:absolute;
+    right:0;
+    top:2.5rem;
+    width:40px;
+    height:40px;
+    background-color: orangered;
+    color:white;
+    margin-right:1rem;
+    font-size:1.5rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius: 50%;
+    font-weight: 800;
+    box-shadow: rgb(38, 38, 38) 4px 5px 6px;
+    
+}
+
+ul li span:hover{
+    background-color: red;
+    box-shadow:rgba(0, 0, 0, 0.76) 8px 8px 13px;
+    border:1px black solid;
+}
+
+ul li:hover{
+    background-color: rgb(136, 191, 239);
+}
