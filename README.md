@@ -11,10 +11,6 @@ A simple and intuitive to-do list web application to help you keep track of your
 
 Check out the live demo: https://is-hitadey.github.io/To-do-List/
 
-## Screenshots
-
-![Screenshot 1](#)
-![Screenshot 2](#)
 
 ## Technologies Used
 
